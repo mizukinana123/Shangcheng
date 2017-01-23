@@ -1,0 +1,25 @@
+.header {
+  height: 39px;
+  border-bottom: 1px solid #ededed;
+  padding-right: 10px;
+}
+.header a {
+  display: block;
+  width: 30px;
+  height: 40px;
+}
+.header a::after {
+  content: '<';
+  font: 600 14px son;
+  position: absolute;
+  top: 12px;
+  left: 9px;
+}
+.header .right {
+  line-height: 40px;
+}
+.header h2 {
+  margin: 0 30px;
+  line-height: 40px;
+  text-align: center;
+}
