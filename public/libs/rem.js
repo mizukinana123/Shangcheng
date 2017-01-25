@@ -4,7 +4,6 @@ function getSize(){
     //实时获取屏幕的大小
     var rel_phtml=phtml.offsetWidth;
     if(rel_phtml>640){
-        //这些值是放到手机端哪里试出来的
         phtml.style.fontSize='100px';
     }else if(rel_phtml<320){
         phtml.style.fontSize='50px';
