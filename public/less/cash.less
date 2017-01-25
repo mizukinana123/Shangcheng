@@ -1,0 +1,57 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #fff;
+}
+
+//支付方式
+.pay_plan {
+    margin-top: 10px;
+    // height: 160px;
+    background-color: #fff;
+    li {
+        border-top: 1px solid #f6f6f6;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        padding: 0 10px;
+        position: relative;
+        .plan_name {
+            color: #999999;
+        }
+        .surplus {
+            color: #999999;
+            font-size: 12px;
+        }
+        .choice {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #999999;
+            top: 0;
+            right: 0;
+        }
+    }
+}
+
+//支付确认
+.pay_confirm {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    padding-left: 11px;
+    .pay_price {
+        line-height: 0.8rem;
+        color: #ff2150;
+    }
+    input {
+        width: 1.8rem;
+        height: 0.8rem;
+        background-color: #ff2150;
+        border: none;
+        color: #fff;
+    }
+}
